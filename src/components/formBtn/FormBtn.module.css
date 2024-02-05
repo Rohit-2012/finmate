@@ -1,0 +1,17 @@
+.btn {
+    width: 50%;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: rgb(7, 63, 109);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    box-shadow: 2px 2px 4px rgb(49, 49, 49);
+    cursor: pointer;
+}
+
+@media (width <= 800px) {
+    .btn{
+        width: 100%;
+    }
+}

@@ -1,0 +1,22 @@
+.menu_container {
+    position: absolute;
+    top: 5.45rem;
+    right: 0;
+    padding: 1rem;
+    background-color: #e6e4e4;
+    box-shadow: 2px 2px 4px rgb(82, 82, 82);
+    z-index: 2;
+}
+
+.menu_container ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.nav_item a {
+    text-decoration: none;
+    color: inherit
+}
